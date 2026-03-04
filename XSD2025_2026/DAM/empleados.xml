@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="empleados.xsd">
+    <empleado>
+        <nombre>Ana</nombre>
+        <apellido>García</apellido>
+        <edad>30</edad>
+        <departamento>Ventas</departamento>
+        <cargo>Ejecutivo de ventas</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Luis</nombre>
+        <apellido>Rodríguez</apellido>
+        <edad>45</edad>
+        <departamento>Finanzas</departamento>
+        <cargo>Analista financiero</cargo>
+    </empleado>
+    <empleado>
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <edad>28</edad>
+        <departamento>Marketing</departamento>
+        <cargo>Especialista en redes sociales</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Carlos</nombre>
+        <apellido>Ruiz</apellido>
+        <edad>34</edad>
+        <departamento>Sistemas</departamento>
+        <cargo>Administrador de redes</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Elena</nombre>
+        <apellido>Sanz</apellido>
+        <edad>41</edad>
+        <departamento>RRHH</departamento>
+        <cargo>Responsable de talento</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Javier</nombre>
+        <apellido>Martín</apellido>
+        <edad>29</edad>
+        <departamento>Ventas</departamento>
+        <cargo>Comercial junior</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Sofía</nombre>
+        <apellido>Castro</apellido>
+        <edad>37</edad>
+        <departamento>I+D</departamento>
+        <cargo>Ingeniera de software</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Pablo</nombre>
+        <apellido>Gómez</apellido>
+        <edad>50</edad>
+        <departamento>Logística</departamento>
+        <cargo>Jefe de almacén</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Lucía</nombre>
+        <apellido>Fernández</apellido>
+        <edad>26</edad>
+        <departamento>Marketing</departamento>
+        <cargo>Diseñadora gráfica</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Antonio</nombre>
+        <apellido>Vázquez</apellido>
+        <edad>44</edad>
+        <departamento>Finanzas</departamento>
+        <cargo>Contable</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Marta</nombre>
+        <apellido>Jiménez</apellido>
+        <edad>32</edad>
+        <departamento>Sistemas</departamento>
+        <cargo>Analista de datos</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Raúl</nombre>
+        <apellido>Pérez</apellido>
+        <edad>39</edad>
+        <departamento>Dirección</departamento>
+        <cargo>Director general</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Isabel</nombre>
+        <apellido>Blanco</apellido>
+        <edad>31</edad>
+        <departamento>Atención al Cliente</departamento>
+        <cargo>Soporte técnico</cargo>
+    </empleado>
+</empresa>

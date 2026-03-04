@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="productos.xsd">
+    <producto>
+        <codigo>P001</codigo>
+        <nombre>Portátil Gaming X1</nombre>
+        <descripcion>Procesador i7, 16GB RAM, RTX 4060.</descripcion>
+        <precio>1250.00</precio>
+        <categoria>Informática</categoria>
+        <disponibilidad>en stock</disponibilidad>
+        <imagen>https://tienda.com/img/p001.jpg</imagen>
+    </producto>
+    <producto>
+        <codigo>P002</codigo>
+        <nombre>Ratón Ergonómico</nombre>
+        <descripcion>Ratón inalámbrico con sensor óptico de alta precisión.</descripcion>
+        <precio>45.50</precio>
+        <categoria>Periféricos</categoria>
+        <disponibilidad>en stock</disponibilidad>
+        <imagen>https://tienda.com/img/p002.jpg</imagen>
+    </producto>
+    <producto>
+        <codigo>P003</codigo>
+        <nombre>Monitor 27" 4K</nombre>
+        <descripcion>Panel IPS con resolución Ultra HD.</descripcion>
+        <precio>320.00</precio>
+        <categoria>Monitores</categoria>
+        <disponibilidad>agotado</disponibilidad>
+        <imagen>https://tienda.com/img/p003.jpg</imagen>
+    </producto>
+    <producto>
+        <codigo>P015</codigo>
+        <nombre>Teclado Mecánico RGB</nombre>
+        <descripcion>Switches red, retroiluminación personalizada.</descripcion>
+        <precio>89.99</precio>
+        <categoria>Periféricos</categoria>
+        <disponibilidad>en stock</disponibilidad>
+        <imagen>https://tienda.com/img/p015.jpg</imagen>
+    </producto>
+</tienda>

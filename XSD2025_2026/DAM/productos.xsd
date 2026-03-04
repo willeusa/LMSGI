@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tienda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="producto" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigo" type="xs:string" />
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="descripcion" type="xs:string" />
+                            <xs:element name="precio" type="xs:decimal" />
+                            <xs:element name="categoria" type="xs:string" />
+                            <xs:element name="disponibilidad">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="en stock" />
+                                        <xs:enumeration value="agotado" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="imagen" type="xs:anyURI" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:unique name="uniqueCodigo">
+            <xs:selector xpath="producto" />
+            <xs:field xpath="codigo" />
+        </xs:unique>
+    </xs:element>
+</xs:schema>
