@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="empleados.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="empleados.xsd">
     <!--Viene de una tabla de datos-->
     <empleado>
         <nombre>Ana</nombre>
