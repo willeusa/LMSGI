@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo_cloud>
+    <!-- Servidor de Producción -->
+    <servidor id="srv-01">
+        <cpu>Intel Xeon</cpu>
+    </servidor>
+</catalogo_cloud>
