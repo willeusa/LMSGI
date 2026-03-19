@@ -1,0 +1,1 @@
+[{"kind":1,"language":"markdown","value":"# XPath Notebook\n\nDate: 2026-03-19     Time: 12:30:11\n"},{"kind":2,"language":"xpath","value":"//recurso[@formato != 'PDF']/@id /string()"}]
