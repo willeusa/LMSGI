@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="inventario.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<inventario>
+    <producto id="p01" categoria="procesador">
+        <nombre>AMD Ryzen 7 5800X</nombre>
+        <precio moneda="EUR">320</precio>
+        <stock>12</stock>
+    </producto>
+    <producto id="p02" categoria="gpu" descatalogado="no">
+        <nombre>Nvidia RTX 3060</nombre>
+        <precio moneda="EUR">450</precio>
+        <stock>5</stock>
+    </producto>
+    <producto id="p03" categoria="memoria" descatalogado="si">
+        <nombre>DDR4 8GB 3200MHz</nombre>
+        <precio moneda="EUR">45</precio>
+        <stock>0</stock>
+    </producto>
+</inventario>

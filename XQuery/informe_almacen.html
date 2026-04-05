@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Catálogo de Hardware</title>
+    <style>
+      .sin-stock {
+        color: red;
+        font-weight: bold;
+      }
+      table {
+        border-collapse: collapse;
+        width: 60%;
+        font-family: sans-serif;
+      }
+      th,
+      td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Estado del Almacén - HardwareTech</h2>
+    <table>
+      <tr>
+        <th>Producto</th>
+        <th>Categoría</th>
+        <th>Precio</th>
+        <th>Disponibilidad</th>
+      </tr>
+      <tr>
+        <td><nombre>Nvidia RTX 3060</nombre></td>
+        <td style="text-transform: capitalize">gpu</td>
+        <td><precio moneda="EUR">450</precio> €</td>
+        <td><span>5 uds. en almacén</span></td>
+      </tr>
+      <tr>
+        <td><nombre>DDR4 8GB 3200MHz</nombre></td>
+        <td style="text-transform: capitalize">memoria</td>
+        <td><precio moneda="EUR">45</precio> €</td>
+        <td><span class="sin-stock">¡Agotado!</span></td>
+      </tr>
+      <tr>
+        <td><nombre>AMD Ryzen 7 5800X</nombre></td>
+        <td style="text-transform: capitalize">procesador</td>
+        <td><precio moneda="EUR">320</precio> €</td>
+        <td><span>12 uds. en almacén</span></td>
+      </tr>
+    </table>
+  </body>
+</html>

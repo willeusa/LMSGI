@@ -4,7 +4,7 @@
     
     <centro_datos ubicacion="Madrid" zona="eu-sur-1">
         
-        <servidor id="srv-web-01" rack="A1" estado="activo">
+        <servidor id="srv-web-01" rack="A1" estado="mantenimiento">
             
             <hardware>
                 <cpu>Intel Xeon Gold</cpu>
@@ -17,7 +17,7 @@
             <software />
             
             <red>
-                <ip_fija>192.168.001.052</ip_fija>
+                <ip_fija>192.168.001.252</ip_fija>
             </red>
             
             <auditoria>
