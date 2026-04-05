@@ -25,17 +25,20 @@
         </xs:restriction>
     </xs:simpleType>
     
+    <!--Misión 1-->
     <xs:attributeGroup name="AtributosServidor">
         <xs:attribute name="id" type="TipoIdServidor" use="required" />
         <xs:attribute name="rack" type="TipoRack" use="required" />
         <xs:attribute name="estado" type="TipoEstado" use="required" />
     </xs:attributeGroup>
     
+    <!--Misión 2-->
     <xs:group name="ComponentesHardware">
         <xs:sequence>
             <xs:element name="cpu" type="xs:string" />
             <xs:element name="ram" type="xs:string" />
             
+            <!--Misión 3-->
             <xs:element name="gpu" type="xs:string" minOccurs="0" />
             
             <xs:element name="discos">
@@ -70,13 +73,14 @@
                                         
                                         <xs:element name="software" type="xs:anyType" />
                                         
+                                        <!--Misión 4-->
                                         <xs:element name="red">
                                             <xs:complexType>
                                                 <xs:choice>
                                                     <xs:element name="ip_fija">
                                                         <xs:simpleType>
                                                             <xs:restriction base="xs:string">
-                                                                <xs:pattern value="(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" />
+                                                                <xs:pattern value="((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" />
                                                             </xs:restriction>
                                                         </xs:simpleType>
                                                     </xs:element>
@@ -92,6 +96,7 @@
                                             </xs:complexType>
                                         </xs:element>
                                         
+                                        <!--Misión 5-->
                                         <xs:element name="auditoria">
                                             <xs:complexType>
                                                 <xs:all>
@@ -115,6 +120,7 @@
             <xs:attribute name="empresa" type="xs:string" use="required" />
         </xs:complexType>
         
+        <!--Misión 6-->
         <xs:unique name="UnicoID">
             <xs:selector xpath=".//servidor" />
             <xs:field xpath="@id" />
