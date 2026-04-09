@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="catalogo.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<catalogo>
+    <contenido id="c01" tipo="serie" estado="activo">
+        <titulo>CyberHacker</titulo>
+        <genero>Sci-Fi</genero>
+        <temporadas>3</temporadas>
+        <visualizaciones>150000</visualizaciones>
+        <valoracion>4.8</valoracion>
+    </contenido>
+    <contenido id="c02" tipo="pelicula" estado="activo">
+        <titulo>El último commit</titulo>
+        <genero>Drama</genero>
+        <duracion>120</duracion>
+        <visualizaciones>85000</visualizaciones>
+        <valoracion>3.9</valoracion>
+    </contenido>
+    <contenido id="c03" tipo="serie" estado="cancelado">
+        <titulo>Bucle Infinito</titulo>
+        <genero>Comedia</genero>
+        <temporadas>1</temporadas>
+        <visualizaciones>12000</visualizaciones>
+        <valoracion>2.5</valoracion>
+    </contenido>
+</catalogo>
