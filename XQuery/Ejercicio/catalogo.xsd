@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="catalogo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="contenido" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="genero" type="xs:string"/>
+                            <xs:choice>
+                                <xs:element name="temporadas" type="xs:positiveInteger"/>
+                                <xs:element name="duracion" type="xs:positiveInteger"/>
+                            </xs:choice>
+                            <xs:element name="visualizaciones" type="xs:positiveInteger"/>
+                            <xs:element name="valoracion" type="xs:decimal" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                        <xs:attribute name="tipo" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="serie"/>
+                                    <xs:enumeration value="pelicula"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="estado" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="activo"/>
+                                    <xs:enumeration value="cancelado"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
