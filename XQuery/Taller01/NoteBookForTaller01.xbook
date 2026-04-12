@@ -1,1 +1,1 @@
-[{"kind":1,"language":"markdown","value":"# XPath Notebook\nDate: 2026-04-12     Time: 14:47:18"},{"kind":2,"language":"xpath","value":"//libro[@categoria=\"programacion\"] /string()"}]
+[{"kind":1,"language":"markdown","value":"# Comparación XPath Notebook y BaseX\nDate: 2026-04-12     Time: 14:47:18"},{"kind":2,"language":"xpath","value":"//libro[@categoria=\"programacion\"] /string()"}]
