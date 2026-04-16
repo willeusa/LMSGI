@@ -26,6 +26,6 @@ let $html_final :=
     </body>
   </html>
 
-(: 2. Persistimos el resultado en un archivo físico :)
+(: 2. Generamos el resultado en un archivo físico :)
 (: Importante: Ajustar la ruta según el sistema (Windows/Linux) :)
 return file:write("C:/Users/willm/OneDrive - CAMPUS CAMARA SEVILLA SAU/Documentos/2025_2026/LDM/LMSGI/XQuery/Taller01/listado_libros.html", $html_final)
