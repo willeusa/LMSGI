@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="tipoSerial">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="SN-[0-9]{6}#[A-Z]{2}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoEstado">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="5" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="RetroGamingVault">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Item" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string" />
+                            <xs:element name="Fabricante" type="xs:string" />
+                            <xs:element name="AnioLanzamiento">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1970" />
+                                        <xs:maxInclusive value="2005" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="SerialNumber" type="tipoSerial" />
+                            <xs:element name="EstadoConservacion" type="tipoEstado" />
+                            <xs:element name="ValorEstimado">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:decimal">
+                                            <xs:attribute name="moneda" type="xs:string" fixed="EUR" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="categoria" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Hardware" />
+                                    <xs:enumeration value="Software" />
+                                    <xs:enumeration value="Periférico" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

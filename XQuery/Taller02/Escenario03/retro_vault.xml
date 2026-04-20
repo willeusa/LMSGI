@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="retro_vault.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<RetroGamingVault>
+    <Item categoria="Hardware">
+        <Nombre>Magnavox Odyssey</Nombre>
+        <Fabricante>Magnavox</Fabricante>
+        <AnioLanzamiento>1972</AnioLanzamiento>
+        <SerialNumber>SN-000001#MA</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">600.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Atari 2600</Nombre>
+        <Fabricante>Atari</Fabricante>
+        <AnioLanzamiento>1977</AnioLanzamiento>
+        <SerialNumber>SN-112233#AT</SerialNumber>
+        <EstadoConservacion>3</EstadoConservacion>
+        <ValorEstimado moneda="EUR">150.00</ValorEstimado>
+    </Item>
+    <Item categoria="Software">
+        <Nombre>Pac-Man (Cartucho Original)</Nombre>
+        <Fabricante>Namco</Fabricante>
+        <AnioLanzamiento>1980</AnioLanzamiento>
+        <SerialNumber>SN-888777#PM</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">300.50</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Commodore 64</Nombre>
+        <Fabricante>Commodore</Fabricante>
+        <AnioLanzamiento>1982</AnioLanzamiento>
+        <SerialNumber>SN-646464#CO</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">250.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>NES (Nintendo Entertainment System)</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>1983</AnioLanzamiento>
+        <SerialNumber>SN-000085#NI</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">450.00</ValorEstimado>
+    </Item>
+    <Item categoria="Periférico">
+        <Nombre>NES Zapper</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>1984</AnioLanzamiento>
+        <SerialNumber>SN-999000#ZP</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">45.00</ValorEstimado>
+    </Item>
+    <Item categoria="Software">
+        <Nombre>Super Mario Bros</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>1985</AnioLanzamiento>
+        <SerialNumber>SN-101010#SM</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">1200.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Sega Mega Drive</Nombre>
+        <Fabricante>Sega</Fabricante>
+        <AnioLanzamiento>1988</AnioLanzamiento>
+        <SerialNumber>SN-161616#SE</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">120.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Game Boy</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>1989</AnioLanzamiento>
+        <SerialNumber>SN-909090#GB</SerialNumber>
+        <EstadoConservacion>3</EstadoConservacion>
+        <ValorEstimado moneda="EUR">100.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Super Nintendo (SNES)</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>1990</AnioLanzamiento>
+        <SerialNumber>SN-121212#SN</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">200.00</ValorEstimado>
+    </Item>
+    <Item categoria="Software">
+        <Nombre>Street Fighter II</Nombre>
+        <Fabricante>Capcom</Fabricante>
+        <AnioLanzamiento>1991</AnioLanzamiento>
+        <SerialNumber>SN-222333#SF</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">80.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>PlayStation</Nombre>
+        <Fabricante>Sony</Fabricante>
+        <AnioLanzamiento>1994</AnioLanzamiento>
+        <SerialNumber>SN-199401#PS</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">90.00</ValorEstimado>
+    </Item>
+    <Item categoria="Periférico">
+        <Nombre>N64 Controller (Grey)</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>1996</AnioLanzamiento>
+        <SerialNumber>SN-646400#CT</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">55.00</ValorEstimado>
+    </Item>
+    <Item categoria="Software">
+        <Nombre>Pokémon Rojo</Nombre>
+        <Fabricante>Game Freak</Fabricante>
+        <AnioLanzamiento>1996</AnioLanzamiento>
+        <SerialNumber>SN-000151#PK</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">500.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Sega Dreamcast</Nombre>
+        <Fabricante>Sega</Fabricante>
+        <AnioLanzamiento>1998</AnioLanzamiento>
+        <SerialNumber>SN-989898#DC</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">180.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>PlayStation 2</Nombre>
+        <Fabricante>Sony</Fabricante>
+        <AnioLanzamiento>2000</AnioLanzamiento>
+        <SerialNumber>SN-200001#PS</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">110.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Nintendo GameCube</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>2001</AnioLanzamiento>
+        <SerialNumber>SN-200101#GC</SerialNumber>
+        <EstadoConservacion>4</EstadoConservacion>
+        <ValorEstimado moneda="EUR">130.00</ValorEstimado>
+    </Item>
+    <Item categoria="Hardware">
+        <Nombre>Xbox</Nombre>
+        <Fabricante>Microsoft</Fabricante>
+        <AnioLanzamiento>2001</AnioLanzamiento>
+        <SerialNumber>SN-200101#XB</SerialNumber>
+        <EstadoConservacion>3</EstadoConservacion>
+        <ValorEstimado moneda="EUR">85.00</ValorEstimado>
+    </Item>
+    <Item categoria="Software">
+        <Nombre>The Legend of Zelda: The Wind Waker</Nombre>
+        <Fabricante>Nintendo</Fabricante>
+        <AnioLanzamiento>2002</AnioLanzamiento>
+        <SerialNumber>SN-777888#ZW</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">150.00</ValorEstimado>
+    </Item>
+    <Item categoria="Software">
+        <Nombre>Resident Evil 4</Nombre>
+        <Fabricante>Capcom</Fabricante>
+        <AnioLanzamiento>2005</AnioLanzamiento>
+        <SerialNumber>SN-444555#RE</SerialNumber>
+        <EstadoConservacion>5</EstadoConservacion>
+        <ValorEstimado moneda="EUR">95.00</ValorEstimado>
+    </Item>
+</RetroGamingVault>
